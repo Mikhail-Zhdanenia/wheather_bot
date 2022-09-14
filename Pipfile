@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "~=0.75.1"
+h11 = "~=0.13.0"
+cryptography = "~=3.3.2"
+pillow = "~=8.1.2"
+keyring = "~=23.0.1"
+anyio = "~=3.5.0"
+sniffio = "~=1.2.0"
+asgiref = "~=3.5.0"
+starlette = "~=0.17.1"
+pydantic = "~=1.9.0"
+requests = "~=2.25.1"
+websockets = "~=10.2"
+uvloop = "~=0.16.0"
+click = "~=7.1.2"
+uvicorn = "~=0.17.6"
+pyyaml = "~=5.3.1"
+httptools = "~=0.4.0"
+watchgod = "~=0.8.2"
+zipp = "~=1.0.0"
+django = "~=4.0.3"
+djangorestframework = "~=3.13.1"
+aiogram = "*"
+wheel = "*"
+telebot = "*"
+pytelegrambotapi = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
